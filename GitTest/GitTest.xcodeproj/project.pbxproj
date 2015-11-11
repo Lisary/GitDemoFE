@@ -14,6 +14,7 @@
 		497AB1101BF320BB00BF52BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 497AB10F1BF320BB00BF52BB /* Images.xcassets */; };
 		497AB1131BF320BB00BF52BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 497AB1111BF320BB00BF52BB /* LaunchScreen.xib */; };
 		497AB11F1BF320BB00BF52BB /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 497AB11E1BF320BB00BF52BB /* GitTestTests.m */; };
+		497AB12B1BF328C400BF52BB /* ViewControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = 497AB12A1BF328C400BF52BB /* ViewControllerA.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		497AB1181BF320BB00BF52BB /* GitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		497AB11D1BF320BB00BF52BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		497AB11E1BF320BB00BF52BB /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		497AB1291BF328C400BF52BB /* ViewControllerA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerA.h; sourceTree = "<group>"; };
+		497AB12A1BF328C400BF52BB /* ViewControllerA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerA.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		497AB1011BF320BB00BF52BB /* GitTest */ = {
 			isa = PBXGroup;
 			children = (
+				497AB1281BF328A700BF52BB /* a */,
 				497AB1061BF320BB00BF52BB /* AppDelegate.h */,
 				497AB1071BF320BB00BF52BB /* AppDelegate.m */,
 				497AB1091BF320BB00BF52BB /* ViewController.h */,
@@ -117,6 +121,15 @@
 				497AB11D1BF320BB00BF52BB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		497AB1281BF328A700BF52BB /* a */ = {
+			isa = PBXGroup;
+			children = (
+				497AB1291BF328C400BF52BB /* ViewControllerA.h */,
+				497AB12A1BF328C400BF52BB /* ViewControllerA.m */,
+			);
+			path = a;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				497AB12B1BF328C400BF52BB /* ViewControllerA.m in Sources */,
 				497AB10B1BF320BB00BF52BB /* ViewController.m in Sources */,
 				497AB1081BF320BB00BF52BB /* AppDelegate.m in Sources */,
 				497AB1051BF320BB00BF52BB /* main.m in Sources */,
@@ -418,6 +432,7 @@
 				497AB1241BF320BB00BF52BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		497AB1251BF320BB00BF52BB /* Build configuration list for PBXNativeTarget "GitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +441,7 @@
 				497AB1271BF320BB00BF52BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
